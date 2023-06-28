@@ -1,0 +1,37 @@
+{
+  "agents": [
+    {
+      "id": "php-agent-installer",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install -n php-agent-installer"
+    },
+    {
+      "id": "my-sql-installer",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install -n mysql-open-source-integration"
+    },
+    {
+      "id": "apache-installer",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install -n apache-open-source-integration"
+    },
+    {
+      "id": "linux-infra",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install"
+    },
+    {
+      "id": "go-agent-installer",
+      "installScript": "curl https://google.com"
+    },
+    {
+      "id": "nri-mysql",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install -n php-agent-installer"
+    },
+    {
+      "id": "nri-apache",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install -n php-agent-installer"
+    },
+    {
+      "id": "nri-prometheus",
+      "installScript": "curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-0VT9077S4G23G87QW2572M6T09G NEW_RELIC_ACCOUNT_ID=3510613 /usr/local/bin/newrelic install -n php-agent-installer"
+    }
+
+  ]
+}
